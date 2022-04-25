@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+}
+.h {
+  background-color: rgb(232, 243, 243);
+  height: 112px;
+  width: 400px;
+  font-size: 2em;
+  margin: 0 auto;
+}
+.div1 {
+  background-color: rgb(98, 219, 240);
+  height: 550px;
+  width: 550px;
+  line-height: 1.7;
+  margin: 30px auto;
+}
+.div2 {
+  background-color: rgb(116, 176, 232);
+  height: 550px;
+  width: 550px;
+  line-height: 1.7;
+  margin: 30px auto;
+}
+.div3 {
+  background-color: whitesmoke;
+  height: 300px;
+  width: 550px;
+  line-height: 1.7;
+  margin: 0 auto;
+}
+a:hover {
+  background-color: blue;
+  color: red;
+}
