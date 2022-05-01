@@ -1,35 +1,45 @@
-body {
-  text-align: center;
-}
-.h {
-  background-color: rgb(232, 243, 243);
-  height: 112px;
-  width: 400px;
-  font-size: 2em;
+* {
+  margin: 0;
+  padding: 0;
   margin: 0 auto;
 }
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(0, 255, 174, 0.995);
+}
+.h {
+  background-color: rgba(250, 250, 250, 0.249);
+  height: 112px;
+  width: 550px;
+  font-size: 2em;
+  text-align: center;
+  line-height: 112px;
+}
 .div1 {
-  background-color: rgb(98, 219, 240);
+  background-color: rgba(250, 250, 250, 0.249);
   height: 550px;
   width: 550px;
   line-height: 1.7;
-  margin: 30px auto;
 }
 .div2 {
-  background-color: rgb(116, 176, 232);
+  background-color: rgba(250, 250, 250, 0.249);
   height: 550px;
   width: 550px;
   line-height: 1.7;
-  margin: 30px auto;
+  text-align: center;
 }
 .div3 {
-  background-color: whitesmoke;
+  background-color: rgba(250, 250, 250, 0.249);
   height: 300px;
   width: 550px;
   line-height: 1.7;
-  margin: 0 auto;
+  text-align: center;
 }
 a:hover {
-  background-color: blue;
   color: red;
 }
