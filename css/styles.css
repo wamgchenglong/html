@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* margin: 0; */
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/pexels-johannes-plenio-1640820.jpg);
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.box {
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(0, 255, 174, 0.995);
+  height: 100%;
+}
+img {
+  border: none;
+  /* height: 100%; */
+  border-radius: 50%;
+}
+
+.h {
+  /* background-color: rgba(250, 250, 250, 0.249); */
+  height: 112px;
+  /* width: 550px; */
+  font-size: 2em;
+  text-align: center;
+  line-height: 112px;
+  border-bottom: 1px solid #f4f4f4;
+}
+.div1 {
+  background-color: rgba(250, 250, 250, 0.507);
+  /* height: 550px; */
+  /* width: 550px; */
+  line-height: 1.7;
+  margin-top: 10px;
+  text-indent: 2em;
+  padding: 15px;
+  border-radius: 3%;
+  font-size: 18px;
+  color: #38b0de;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* background-color: #; */
+}
+.div2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  /* background-color: rgba(250, 250, 250, 0.249); */
+  background-color: rgba(250, 250, 250, 0.507);
+  margin-top: 15px;
+  border-radius: 3%;
+  /* height: 550px; */
+  /* width: 550px; */
+  line-height: 1.7;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.div2 ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div2 li {
+  transition: all 0.5s;
+  width: 100px;
+  padding: 10px 0;
+}
+
+.div2 li img {
+  width: 100px;
+  height: 100px;
+}
+.div2 li p {
+  text-align: center;
+}
+.div2 ul li:hover {
+  /* background: linear-gradient( #7760aa, #cf92be); */
+  background-color: #e2a9f0;
+  border-radius: 50px;
+}
+
+.div3 {
+  margin-left: 10px;
+  margin-right: 10px;
+  /* background-color: rgba(250, 250, 250, 0.249); */
+  /* height: 300px; */
+  /* width: 550px; */
+  line-height: 1.7;
+  text-align: center;
+}
+.div3 .xue .wang ul {
+  display: flex;
+  justify-content: space-around;
+}
+.div3 .xue .wang li {
+  /* text-align: center; */
+  padding-top: 20px;
+}
+.div3 .xue .wang li img {
+  height: 50px;
+  width: 50 px;
+  border-radius: 19%;
+}
+.div3 .xue .wang li p {
+  transform: translateY(-10px);
+}
+.div3 .xue {
+  background-color: rgba(250, 250, 250, 0.507);
+  border-radius: 3%;
+}
+a:hover {
+  color: red;
+}
